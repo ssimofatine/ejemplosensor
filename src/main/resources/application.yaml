@@ -2,9 +2,9 @@ spring:
   application:
     name: agrot
   datasource:
-    url:  jdbc:mariadb://localhost:3308/ejemplo
-    username: usuario
-    password: usuario
+    url:  jdbc:mariadb://localhost:3306/agrot
+    username: root
+    password: root
   jpa:
     hibernate:
       ddl-auto: update
