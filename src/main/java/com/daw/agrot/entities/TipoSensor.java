@@ -4,5 +4,6 @@ public enum TipoSensor {
     TEMPERATURA,
     HUMEDAD,
     PH,
-    AGUA
+    AGUA,
+    LUZ,
 }

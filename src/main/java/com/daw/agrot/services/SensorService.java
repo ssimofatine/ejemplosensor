@@ -7,8 +7,9 @@ import java.util.List;
 public interface SensorService {
 
     List<Sensor> getAllSensors();
+    List<Sensor> getAllSensorsByNameAndTipo(String name, String tipo);
     Sensor getSensorById(Long id);
     List<Sensor> getAllSensorsTemperatura();
-    void createSensor(Sensor sensor);
+    void saveSensor(Sensor sensor);
     void deleteSensorById(Long id);
 }
